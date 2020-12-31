@@ -23,9 +23,11 @@
    
    命令：
    
+   ```
    cd <.hex所在文件夹>
         
    hexmerge.exe -o simple_peripheral_oad_onchip_3in1.hex sp_oad_onchip_cc26x2r1lp_persistent_app_FlashROM_Debug.hex simple_peripheral_oad_onchip_CC26X2R1_LAUNCHXL_tirtos_ccs_Debug_oad_v0001.hex cc26x2r1lp_bim_onchip.hex
+   ```
         
    其中-o后面的参数是输出文件名。更多使用方法请在命令行中运行hexmerge.exe -h
    
@@ -36,9 +38,11 @@
    
    命令：
    
+   ```
    cd <.hex所在文件夹>
         
    hex2bin_exe>hex2bin.exe simple_peripheral_oad_onchip_3in1.hex simple_peripheral_oad_onchip_3in1.bin
+   ```
         
    更多使用方法请在命令行中运行hex2bin.exe -h
    
